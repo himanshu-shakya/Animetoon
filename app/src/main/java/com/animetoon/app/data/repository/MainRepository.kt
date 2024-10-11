@@ -12,7 +12,7 @@ class MainRepository(private val context: Context) {
     fun getWebtoonsFromJson(): Result<List<Webtoon>> {
         return try {
             // Read JSON file from assets
-            val inputStream = context.assets.open("webtoons.json")
+            val inputStream = context.assets.open("webtoon_data.json")
             val reader = BufferedReader(InputStreamReader(inputStream))
             val jsonString = reader.use { it.readText() }
 

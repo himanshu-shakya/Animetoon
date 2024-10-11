@@ -48,7 +48,8 @@ dependencies {
     implementation(libs.androidx.navigation.ui)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation("io.coil-kt:coil:2.7.0")
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
