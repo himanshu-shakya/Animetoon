@@ -1,5 +1,16 @@
 <resources>
-    <string name="app_name">MangaNest</string>
+    <string name="app_name">Animetoon</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="animetoon">Animetoon</string>
+    <string name="no_favorites_yet">No Favorites Yet</string>
+    <string name="submit">Submit</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="rate_this_webtoon">Rate this Webtoon</string>
+    <string name="rating">Rating</string>
+    <string name="reads">Reads</string>
+    <string name="creator">Creator</string>
+    <string name="favorite">Favorite</string>
+    <string name="back">Back</string>
 </resources>

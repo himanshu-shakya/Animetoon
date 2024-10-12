@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.ksp)
+
 }
 
 android {
@@ -40,7 +42,7 @@ android {
 }
 
 dependencies {
-    implementation ("com.google.code.gson:gson:2.11.0")
+    implementation (libs.gson)
     implementation(libs.koin.androidx)
     implementation(libs.fragment.ktx)
     implementation (libs.androidx.navigation.fragment.ktx)
@@ -48,7 +50,8 @@ dependencies {
     implementation(libs.androidx.navigation.ui)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation("io.coil-kt:coil:2.7.0")
+    implementation(libs.coil)
+    implementation (libs.lottie)
 
 
     implementation(libs.androidx.core.ktx)
@@ -59,4 +62,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.room)
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
+    ksp(libs.room.compiler)
 }

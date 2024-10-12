@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/button_shape_disabled"/> <!-- Disabled state -->
+    <item android:drawable="@drawable/button_shape"/> <!-- Enabled state (default) -->
+</selector>

@@ -1,7 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MangaNest" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.MangaNest" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/orange</item>
+        <item name="android:colorPrimaryDark">@color/orange</item>
+        <item name="android:statusBarColor">@color/orange</item>
     </style>
+
+    <style name="Theme.MangaNest" parent="Base.Theme.MangaNest" />
 </resources>
