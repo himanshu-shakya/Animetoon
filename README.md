@@ -17,3 +17,9 @@
 - **Image Loading**: Coil
 - **Local Storage**: Room Database
 - **Dependency Injection**: Koin
+
+## Download
+
+You can download the APK for the app from the following link:
+
+[AnimeToon v1.0.0 APK](https://github.com/himanshu-shakya/Animetoon/releases/download/v.1.0.0/animetoon.apk)
